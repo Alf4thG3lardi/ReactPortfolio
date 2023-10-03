@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import hire from "../../assets/hire.png";
+import logo from "../../assets/logo.png";
 import { Link } from "react-scroll";
 
 const Intro = () => {
@@ -12,7 +12,7 @@ const Intro = () => {
             <p className='introPara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis tellus,<br/> sollicitudin eget tortor vel, tempus auctor nisi.</p> 
             <Link>
                 <button className='btn'>
-                    <img src={hire} alt='hireImg' className='btnImg'/>Hire Me
+                    <img src={logo} alt='hireImg' className='btnImg'/>Hire Me
                 </button>
             </Link>
         </div>
